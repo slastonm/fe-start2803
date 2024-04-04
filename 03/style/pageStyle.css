@@ -1,0 +1,114 @@
+body{
+    background-color: lime;
+}
+h3{
+    color:blueviolet;
+    background-color: darkcyan;
+}
+/* h4{
+    background-color: yellow;
+    color: black;
+}
+h5{
+    background-color: yellow;
+    color: black;
+}
+h6{
+    background-color: yellow;
+    color: black;
+} */
+/* DRY don't repeat yourself */
+h4,h5,h6{
+    background-color: rgb(122, 122, 15);
+    color: black;
+}
+h4{
+    border: 2px solid black;
+}
+h5{
+    text-align: right;
+}
+h6{
+    text-align: center;
+}
+
+h3{
+    color:rgb(214, 176, 249);
+    background-color: rgb(2, 8, 8);
+}
+div span{
+    color: red;
+}
+span{
+    color:white;
+    font-size: 20px;
+}
+p{
+    color: yellow;
+    background-color: black;
+}
+body p span{
+    color: green;
+}
+#super{
+    color: darkblue;
+}
+body span{
+    color: white;
+}
+.text-card{
+    background-color: wheat;
+    color: black;
+    border: 4px solid black;
+    padding: 50px;
+}
+.big-text{
+    font-size: 24px;
+}
+.text-card.big-text{
+    background-color: white;
+}
+div.text-card{
+    background-color: red;
+    color: black;
+}
+
+.text-card span{
+    color:white;
+}
+*{
+    text-decoration: underline;
+}
+ul li:first-child{
+    background-color: blue;
+}
+ul li:last-child{
+    background-color: yellow;
+}
+ul li:nth-child(4){
+    background-color: rgb(14, 65, 14);
+}
+ul li:nth-child(6){
+    background-color: gray;
+}
+
+a[href="https://example.org"]{
+    color: white;
+}
+.tex-property{
+    /* text-align: left; */
+    text-align: center;
+    /* text-align: right; */
+    font-size: 32px;
+    /* color:red; */
+    /* color:#000000; */
+    /* color:rgb(14, 65, 14); */
+    color:rgba(14, 65, 14, 0.5);
+    /* line-height: 36px; */
+    line-height:1.5;
+    background-color: white;
+    border: 40px solid red;
+    /* border: 40px dashed red; */
+    /* border: 40px dotted red; */
+    /* border: 40px double red; */
+}
