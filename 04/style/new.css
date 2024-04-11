@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+.size-block{
+    border: 3px solid red;
+    /* width: 350px; */
+    height: 200px;
+    /* overflow: auto; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* padding: 25px; */
+    /* padding: 25px 50px; */
+    padding: 40px 25px 30px 20px;
+    /* padding: 0 5px 0 0; */
+    /* padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-bottom: 30px; */
+
+    /* margin: 20px 40px; */
+/* 
+    margin-top: 120px;
+    margin-right: 0px;
+    margin-bottom: 120px;
+    margin-left: 140px; */
+}
+.menu{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 876px; */
+    padding: 50px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: yellow;
+    /* background-color: transparent; */
+}
+.size-block{
+    /* background-color: rgb(34, 189, 240); */
+    background-color: rgba(34, 189, 240, 0.4);
+    border-radius: 10px;
+}
+.size-block span{
+    color: blueviolet;
+}
+
+.size-block:hover span{
+    color: yellow;
+}
+.size-block:hover{
+    background-color: green;
+    color: white;
+}
+input, button{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    /* -webkit-box-shadow: -8px -1px 52px -2px rgba(209,39,209,1);
+    -moz-box-shadow: -8px -1px 52px -2px rgba(209,39,209,1); */
+    box-shadow: -8px -1px 52px -2px rgba(209,39,209,1);
+    border-radius: 183px 62px 75px 120px;
+}
+.link-row{
+    font-size: 0;
+}
+.link-row a:last-child{
+    margin-right: 0;
+}
+a{
+    /* display: block; */
+    display: inline-block;
+    border: 1px solid black;
+    /* margin-right: -8px; */
+    font-size: 16px;
+    margin-right: 8px;
+}
+a>img{
+    width: 50px;
+}
+.user-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.user-pic img{
+    width: 200px;
+}
+.img-block,
+.text-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.img-block{
+    width: 50px;
+}
+
+.img-block>img{
+    width: 50px;
+}
+.text-block{
+    width: 180px;
+}
