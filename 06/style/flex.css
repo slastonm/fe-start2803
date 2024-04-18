@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: aqua;
+}
+.in-flex{
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: inline; */
+    display: inline-flex;
+    border: 2px solid black;
+}
+.d-flex{
+    display: flex;
+    border: 2px solid black;
+    width: 80%;
+    margin: 50px auto;
+    height: 500px;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: flex-direction + flex-wrap; example */
+    /* flex-flow: row-reverse wrap; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* align-items: baseline; */
+
+    /* column-gap: 20px;
+    row-gap: 50px; */
+}
+.item{
+    padding: 20px;
+    /* width: 100%; */
+    /* min-width: 400px; */
+    /* width: 10%; */
+    /* min-width: 100px; */
+    text-align: center;
+    background-color: lightslategray;
+    /* order: 0; */
+    /* flex-shrink: 1; */
+    flex-grow: 1;
+
+}
+.item:nth-child(2){
+    background-color: rgb(238, 76, 240);
+    /* height: 400px; */
+    /* font-size: 58px; */
+    /* align-self: flex-start; */
+    /* flex-shrink: 3; */
+    flex-grow: 2;
+
+}
+.item:nth-child(3){
+    /* height: 150px; */
+    /* font-size: 34px; */
+    background-color: rgb(87, 124, 161);
+    /* align-self: flex-end; */
+    order: 5;
+    /* flex-shrink: 1; */
+    flex-grow: 3;
+
+}
+.item:nth-child(4){
+    /* height: 250px; */
+    background-color: rgb(191, 78, 12);
+    /* align-self: center; */
+    order: 6;
+}
+.item:nth-child(5){
+
+    background-color: rgb(203, 11, 120);
+    order: 3;
+
+}
+.item:nth-child(6){
+    background-color: rgb(10, 160, 102);
+}
+.item:nth-child(7){
+    background-color: rgb(15, 61, 107);
+    order: 2;
+
+}
+.item:nth-child(8){
+    background-color: rgb(15, 109, 203);
+    order: -1;
+}
+button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 100%;
+}
+button:hover{
+    
+}
