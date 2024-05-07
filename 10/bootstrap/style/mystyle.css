@@ -1,0 +1,12 @@
+.col-md-6.custom{
+    width: 55%;
+}
+.top-nav-bg{
+    background-color: darkgreen;
+}
+.bg-section{
+    /* background-image: ; */
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    
+}
